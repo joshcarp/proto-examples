@@ -1,0 +1,6 @@
+syntax = "proto3";
+package simple.v1;
+
+message Person {
+  string simple = 1;
+}

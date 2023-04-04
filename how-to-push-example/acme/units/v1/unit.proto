@@ -1,0 +1,7 @@
+syntax = "proto3";
+package acme.units.v1;
+
+message Unit {
+  int32 number = 1;
+  string name = 2;
+}

@@ -6,3 +6,5 @@ breaking:
 lint:
   use:
     - DEFAULT
+deps:
+  - bufbuild.internal/josh/foo

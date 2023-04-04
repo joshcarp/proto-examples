@@ -1,5 +1,5 @@
 version: v1
-name: bufbuild.internal/josh/foo
+name: buf.build/josh/push-a-module
 breaking:
   use:
     - FILE

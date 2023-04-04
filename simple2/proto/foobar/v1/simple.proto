@@ -1,0 +1,7 @@
+syntax = "proto3";
+package foobar.v1;
+import "simple/v1/simple.proto";
+
+message Person {
+  string simple.v1.Color = 1;
+}

@@ -1,0 +1,10 @@
+version: v1
+name: buf.build/josh/push-a-module-2
+deps:
+  - buf.build/josh/push-a-module
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT

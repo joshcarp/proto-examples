@@ -1,9 +1,6 @@
 version: v1
-managed:
-  enabled: true
-  go_package_prefix:
-    default: github.com/joshcarp/proto-examples/simple
 plugins:
-  - plugin: go
-    out: gen/go
+  - plugin: debug
+    out: gen/proto/debug
     opt: paths=source_relative
+    path: ["sh", "-e", "/Users/joshcarp/Documents/github.com/joshcarp/proto-examples/simple/protoc-gen-debug.sh"]

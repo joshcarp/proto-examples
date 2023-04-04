@@ -1,0 +1,6 @@
+syntax = "proto3";
+import "acme/units/v1/unit.proto";
+
+message Day {
+  acme.units.v1.Unit Temperature = 1;
+}

@@ -1,6 +1,6 @@
 version: v1
 plugins:
-  - plugin: debug
+  - plugin: bufbuild.internal/plugin/protoc-gen-reactor-grpc
     out: gen/proto/debug
-    opt: paths=source_relative
-    path: ["sh", "-e", "/Users/joshcarp/Documents/github.com/joshcarp/proto-examples/simple/protoc-gen-debug.sh"]
+    opts: paths=source_relative
+    path: ["/Users/joshcarp/Documents/github.com/joshcarp/proto-examples/simple/protoc-gen-debug.sh"]

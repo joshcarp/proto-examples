@@ -5,8 +5,16 @@ message Person {
   string simple = 1;
 }
 
-enum Color {
-  RED = 0;
-  BLUE = 1;
-  GREEN = 2;
+message PluginReference {
+  // The owner of the plugin which identifies the
+  // plugins to use with this generation.
+  string owner = 1;
+  // The name of the plugin which identifies the
+  // plugins to use with this generation.
+  string name = 2;
+  // The plugin version to use with this generation.
+  string version = 3;
+  // The parameters to pass to the plugin. These will
+  // be merged into a single, comma-separated string.
+  repeated string parameters = 5;
 }

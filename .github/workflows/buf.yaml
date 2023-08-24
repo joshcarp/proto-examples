@@ -22,4 +22,4 @@ jobs:
       # Run breaking change detection against the last commit
       - uses: bufbuild/buf-breaking-action@v1.1.2
         with:
-          against: 'https://github.com/joshcarp/proto-examples.git#branch=main,ref=HEAD~1'
+          against: '.git#branch=main,ref=HEAD~1'
